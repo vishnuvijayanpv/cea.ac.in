@@ -6325,11 +6325,41 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 60px 0;
   color: #fff; }
 
+.alp_01 img {
+  width: 100%; }
+
+.new_pc {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1390850/pexels-photo-1390850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 60px 0; }
+
+.mod_a {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%; }
+
+.mod_a_txt {
+  padding: 60px 0;
+  color: #fff; }
+
+.grid {
+  padding: 15px 0; }
+
+footer a {
+  color: #fff; }
+
 body {
   background: #fff; }
 
 section {
-  padding: 60px 0px; }
+  padding: 100px 0px; }
+
+footer {
+  padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.05e3ed1b0c2c4842c4c7.css.map*/
+/*# sourceMappingURL=main.9023701c7066869ad6d5.css.map*/
