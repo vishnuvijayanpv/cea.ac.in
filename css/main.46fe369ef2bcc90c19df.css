@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,800,900);
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6313,53 +6313,89 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.mod_bg {
+#campus {
+  padding-top: 0;
+  background: #f6f6f7; }
+  #campus .campus-holder {
+    padding-top: 60px;
+    padding-right: 40px; }
+    #campus .campus-holder .head-holder {
+      padding-bottom: 30px; }
+    #campus .campus-holder .m-head {
+      font-weight: 800;
+      font-size: 2em;
+      letter-spacing: 0.1em;
+      color: #333333; }
+    #campus .campus-holder .p-sub {
+      color: #333333;
+      font-weight: 400; }
+    #campus .campus-holder .fac-holder .s-head {
+      font-weight: 700;
+      color: #333333;
+      font-size: 1.1em;
+      letter-spacing: 0.1em; }
+    #campus .campus-holder .fac-holder .p-sub {
+      font-size: 0.9em;
+      line-height: 25px; }
+  #campus .f-holder {
+    background: #003688;
+    color: #fff; }
+    #campus .f-holder .f-sub {
+      padding-top: 120px; }
+      #campus .f-holder .f-sub h1 {
+        font-weight: 800;
+        font-size: 4.5em; }
+      #campus .f-holder .f-sub h6 {
+        font-weight: 300;
+        font-size: 0.8em;
+        letter-spacing: 0.05em; }
+
+#future .mod_bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   height: 100%; }
+  #future .mod_bg .mod_bg_txt {
+    padding: 60px 0;
+    color: #fff; }
 
-.mod_bg_txt {
-  padding: 60px 0;
-  color: #fff; }
-
-.alp_01 img {
+#path .alp_01 img {
   width: 100%; }
 
-.new_pc {
+#news .new_pc {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1390850/pexels-photo-1390850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   padding: 60px 0; }
 
-.mod_a {
+#admission .mod_a {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   height: 100%; }
+  #admission .mod_a .mod_a_txt {
+    padding: 60px 0;
+    color: #fff; }
 
-.mod_a_txt {
-  padding: 60px 0;
-  color: #fff; }
-
-.grid {
+#gallery .grid {
   padding: 15px 0; }
 
 footer a {
   color: #fff; }
 
 body {
+  font-family: "Montserrat", sans-serif;
   background: #fff; }
 
 section {
-  padding: 100px 0px; }
+  padding: 60px 0px; }
 
 footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.9023701c7066869ad6d5.css.map*/
+/*# sourceMappingURL=main.46fe369ef2bcc90c19df.css.map*/
