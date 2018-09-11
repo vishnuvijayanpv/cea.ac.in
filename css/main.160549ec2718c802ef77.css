@@ -1,4 +1,211 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,800,900);
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ *  Owl Carousel - Core
+ */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1; }
+
+.owl-carousel .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+  -moz-backface-visibility: hidden;
+  /* fix firefox animation glitch */ }
+
+.owl-carousel .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  /* fix for flashing background */
+  -webkit-transform: translate3d(0px, 0px, 0px); }
+
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0); }
+
+.owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; }
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%; }
+
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+  display: none; }
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit; }
+
+.owl-carousel.owl-loaded {
+  display: block; }
+
+.owl-carousel.owl-loading {
+  opacity: 0;
+  display: block; }
+
+.owl-carousel.owl-hidden {
+  opacity: 0; }
+
+.owl-carousel.owl-refresh .owl-item {
+  visibility: hidden; }
+
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.owl-carousel.owl-grab {
+  cursor: move;
+  cursor: grab; }
+
+.owl-carousel.owl-rtl {
+  direction: rtl; }
+
+.owl-carousel.owl-rtl .owl-item {
+  float: right; }
+
+/* No Js */
+.no-js .owl-carousel {
+  display: block; }
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+.owl-carousel .animated {
+  animation-duration: 1000ms;
+  animation-fill-mode: both; }
+
+.owl-carousel .owl-animated-in {
+  z-index: 0; }
+
+.owl-carousel .owl-animated-out {
+  z-index: 1; }
+
+.owl-carousel .fadeOut {
+  animation-name: fadeOut; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+.owl-height {
+  transition: height 500ms ease-in-out; }
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+.owl-carousel .owl-item {
+  /**
+			This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
+			calculation of the height of the owl-item that breaks page layouts
+		 */ }
+
+.owl-carousel .owl-item .owl-lazy {
+  opacity: 0;
+  transition: opacity 400ms ease; }
+
+.owl-carousel .owl-item .owl-lazy[src^=""], .owl-carousel .owl-item .owl-lazy:not([src]) {
+  max-height: 0; }
+
+.owl-carousel .owl-item img.owl-lazy {
+  transform-style: preserve-3d; }
+
+/*
+ * 	Owl Carousel - Video Plugin
+ */
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000; }
+
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url(img/owl.video.play.png) no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 100ms ease; }
+
+.owl-carousel .owl-video-play-icon:hover {
+  -ms-transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3); }
+
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  display: none; }
+
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 400ms ease; }
+
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%; }
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6313,30 +6520,49 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.m-head {
+  font-weight: 800;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  color: #333333; }
+
+.s-head {
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.1em;
+  letter-spacing: 0.1em; }
+
+.p-sub {
+  font-size: 0.9em;
+  line-height: 25px; }
+
+.pb-40 {
+  padding-bottom: 40px; }
+
+.main-btn {
+  border-radius: 0;
+  border: 1px solid #333333;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 20px 15px;
+  letter-spacing: 0.1em; }
+  .main-btn:hover {
+    transition-duration: 0.5s;
+    background: #003688; }
+
 #campus {
   padding-top: 0;
+  padding-bottom: 0;
   background: #f6f6f7; }
   #campus .campus-holder {
     padding-top: 60px;
+    padding-bottom: 60px;
     padding-right: 40px; }
     #campus .campus-holder .head-holder {
       padding-bottom: 30px; }
-    #campus .campus-holder .m-head {
-      font-weight: 800;
-      font-size: 2em;
-      letter-spacing: 0.1em;
-      color: #333333; }
     #campus .campus-holder .p-sub {
       color: #333333;
       font-weight: 400; }
-    #campus .campus-holder .fac-holder .s-head {
-      font-weight: 700;
-      color: #333333;
-      font-size: 1.1em;
-      letter-spacing: 0.1em; }
-    #campus .campus-holder .fac-holder .p-sub {
-      font-size: 0.9em;
-      line-height: 25px; }
   #campus .f-holder {
     background: #003688;
     color: #fff; }
@@ -6349,6 +6575,55 @@ a.text-dark:hover, a.text-dark:focus {
         font-weight: 300;
         font-size: 0.8em;
         letter-spacing: 0.05em; }
+
+#studies .deg-holder {
+  padding-bottom: 30px; }
+  #studies .deg-holder .cl {
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-bottom: 12px;
+    background: red; }
+  #studies .deg-holder .s-head {
+    margin-bottom: 10px; }
+    #studies .deg-holder .s-head a {
+      text-decoration: none;
+      color: #333333;
+      font-size: 0.7em; }
+
+#stories .m-head {
+  padding-bottom: 50px; }
+
+#stories .img-holder {
+  background-image: linear-gradient(0deg, rgba(0, 38, 255, 0.3), rgba(0, 38, 255, 0.3));
+  height: 100%;
+  position: relative; }
+  #stories .img-holder .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    transition: 0.5s ease;
+    background-image: linear-gradient(0deg, rgba(24, 24, 26, 0.39), rgba(53, 52, 52, 0.425)); }
+  #stories .img-holder .content {
+    position: absolute;
+    width: 200px;
+    margin-left: -100px;
+    left: 50%;
+    bottom: 10%;
+    color: #fff; }
+    #stories .img-holder .content h6 {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      font-size: 1em; }
+  #stories .img-holder:hover .overlay {
+    opacity: 1;
+    transition: 1s ease; }
 
 #future .mod_bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -6392,10 +6667,10 @@ body {
   background: #fff; }
 
 section {
-  padding: 60px 0px; }
+  padding: 80px 0px; }
 
 footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.46fe369ef2bcc90c19df.css.map*/
+/*# sourceMappingURL=main.160549ec2718c802ef77.css.map*/
