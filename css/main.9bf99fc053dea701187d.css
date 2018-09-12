@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,800,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800,900);
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
@@ -6539,6 +6539,14 @@ a.text-dark:hover, a.text-dark:focus {
 .pb-40 {
   padding-bottom: 40px; }
 
+.link {
+  text-decoration: none;
+  color: #003688;
+  font-weight: 600;
+  font-size: 0.8em; }
+  .link:hover {
+    text-decoration: none; }
+
 .main-btn {
   border-radius: 0;
   border: 1px solid #333333;
@@ -6630,25 +6638,77 @@ a.text-dark:hover, a.text-dark:focus {
     opacity: 1;
     transition: 1s ease; }
 
-#future .mod_bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100%; }
-  #future .mod_bg .mod_bg_txt {
-    padding: 60px 0;
-    color: #fff; }
+#path .s-head {
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-size: 1em;
+  text-transform: uppercase; }
 
-#path .alp_01 img {
-  width: 100%; }
+#path .p-sub {
+  font-size: 0.9em; }
 
-#news .new_pc {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1390850/pexels-photo-1390850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  padding: 60px 0; }
+#news {
+  background: #f6f6f7; }
+  #news .main-btn {
+    color: #333333; }
+    #news .main-btn:hover {
+      color: #fff; }
+  #news .news_holder {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1390850/pexels-photo-1390850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 60px; }
+    #news .news_holder .n-title {
+      font-weight: 300;
+      letter-spacing: 0.1em;
+      font-style: italic; }
+    #news .news_holder .n-head .link {
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 0.6em; }
+    #news .news_holder .n-sub {
+      font-weight: 300;
+      font-size: 0.9em; }
+  #news .event-holder {
+    background: #fff;
+    padding: 30px; }
+    #news .event-holder .e-title {
+      font-weight: 300;
+      letter-spacing: 0.1em;
+      font-style: italic;
+      font-size: 0.7em; }
+    #news .event-holder .e-date {
+      font-weight: 700; }
+    #news .event-holder .e-name {
+      padding-top: 15px;
+      font-size: 0.9em;
+      font-weight: 600; }
+    #news .event-holder .e-description {
+      padding-top: 15px;
+      font-size: 0.9em; }
+    #news .event-holder .e-place {
+      font-size: 0.8em; }
+    #news .event-holder .det-btn {
+      border-color: #043ea3;
+      background: #043ea3;
+      width: 90%;
+      margin-bottom: 10px;
+      color: #fff;
+      padding: 10px 10px;
+      font-weight: 600; }
+      #news .event-holder .det-btn:hover {
+        border-color: #003688;
+        background: #003688; }
+    #news .event-holder .reg-btn {
+      color: #333333;
+      width: 90%;
+      padding: 10px 10px;
+      font-weight: 600; }
+      #news .event-holder .reg-btn:hover {
+        border-color: #333333;
+        background: #333333;
+        color: #fff; }
 
 #admission .mod_a {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -6693,4 +6753,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.c694cab15b358402aefa.css.map*/
+/*# sourceMappingURL=main.9bf99fc053dea701187d.css.map*/
