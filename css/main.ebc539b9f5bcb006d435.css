@@ -6802,6 +6802,33 @@ footer a {
     background: transparent;
     padding-left: 0; }
 
+#admin {
+  padding-top: 50px;
+  padding-bottom: 0;
+  background: #f6f6f7; }
+  #admin ul.breadcrumb li a {
+    color: #00338d;
+    font-weight: 600;
+    letter-spacing: 0; }
+  #admin ul.breadcrumb li a:hover {
+    color: grey;
+    text-decoration: none; }
+  #admin u.breadcrumb li {
+    color: #333; }
+  #admin ul.breadcrumb {
+    background: transparent;
+    padding-left: 0; }
+  #admin .content-head-holder .content-head {
+    font-weight: 800;
+    font-size: 3.5em;
+    text-transform: uppercase; }
+  #admin .content-head-holder .cl {
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin-bottom: 50px;
+    background: #00338d; }
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #fff; }
@@ -6813,4 +6840,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.b3478283aa77eb0465e8.css.map*/
+/*# sourceMappingURL=main.ebc539b9f5bcb006d435.css.map*/
