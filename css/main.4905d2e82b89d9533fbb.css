@@ -6829,6 +6829,9 @@ footer a {
     margin-bottom: 50px;
     background: #00338d; }
 
+#map-holder {
+  background: #f6f6f7; }
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #fff; }
@@ -6840,4 +6843,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.ebc539b9f5bcb006d435.css.map*/
+/*# sourceMappingURL=main.4905d2e82b89d9533fbb.css.map*/
