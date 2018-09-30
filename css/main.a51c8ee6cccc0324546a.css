@@ -6716,17 +6716,6 @@ a.text-dark:hover, a.text-dark:focus {
         background: #333333;
         color: #fff; }
 
-#admission .mod_a {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100%; }
-  #admission .mod_a .mod_a_txt {
-    padding: 60px 0;
-    color: #fff; }
-
 #gallery .grid {
   padding: 15px 0; }
 
@@ -6878,4 +6867,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.c00a3680065bdfc9b9d3.css.map*/
+/*# sourceMappingURL=main.a51c8ee6cccc0324546a.css.map*/
