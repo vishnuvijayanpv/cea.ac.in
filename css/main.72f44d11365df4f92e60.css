@@ -6838,6 +6838,36 @@ footer a {
 #map-holder {
   background: #f6f6f7; }
 
+.carousel-item {
+  background-color: #000;
+  height: 100vh;
+  width: 100%; }
+  .carousel-item .item-1 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(img/bg1.jpeg); }
+  .carousel-item .item-2 {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(img/bg1.jpeg); }
+  .carousel-item .item-3 {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(img/bg1.jpeg); }
+
+.carousel-control-prev {
+  width: 30%;
+  cursor: url(img/left.png), pointer; }
+
+.carousel-control-next {
+  transition: opacity 0.4s ease-out;
+  cursor: url(img/right.png), pointer;
+  width: 30%; }
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #fff; }
@@ -6849,4 +6879,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.4318c726a68fcb592920.css.map*/
+/*# sourceMappingURL=main.72f44d11365df4f92e60.css.map*/
