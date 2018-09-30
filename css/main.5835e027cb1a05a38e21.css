@@ -6558,11 +6558,45 @@ a.text-dark:hover, a.text-dark:focus {
     transition-duration: 0.5s;
     background: #003688; }
 
-.navbar .dropdown > .dropdown-toggle:active {
-  pointer-events: none; }
+.top-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #003688; }
+  .top-nav .nav .nav-item {
+    padding-top: 0px; }
+    .top-nav .nav .nav-item .nav-link {
+      color: #fff;
+      font-size: 0.7em;
+      text-transform: uppercase;
+      font-weight: lighter;
+      opacity: 0.8; }
 
-.navbar :hover > .dropdown-menu {
-  display: block; }
+.navbar {
+  margin-top: 80px;
+  background: transparent;
+  transition: 0.5s ease; }
+  .navbar .navbar-brand {
+    color: #fff;
+    font-weight: bold; }
+  .navbar .dropdown > .dropdown-toggle:active {
+    pointer-events: none; }
+  .navbar :hover > .dropdown-menu {
+    display: block; }
+  .navbar .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: #fff; }
+
+.shrink {
+  background: #fff;
+  transition: 0.5s ease;
+  margin-top: 0px; }
+  .shrink .navbar-brand {
+    color: #000; }
+  .shrink .navbar-nav .nav-item .nav-link {
+    color: #000; }
 
 #campus {
   padding-top: 0;
@@ -6867,4 +6901,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.a51c8ee6cccc0324546a.css.map*/
+/*# sourceMappingURL=main.5835e027cb1a05a38e21.css.map*/
