@@ -6602,15 +6602,15 @@ a.text-dark:hover, a.text-dark:focus {
   .shrink .navbar-nav .nav-item .nav-link {
     color: #000; }
 
-.about-nav {
+.other-navbar {
   color: #000 !important;
   margin-top: 0;
   padding-top: 70px;
   padding-bottom: 10px;
   background-color: #fff !important; }
-  .about-nav .navbar-brand {
+  .other-navbar .navbar-brand {
     color: #000 !important; }
-  .about-nav .about-navbar .nav-link {
+  .other-navbar .other-nav .nav-link {
     color: #000 !important; }
 
 #campus {
@@ -6847,7 +6847,7 @@ footer a {
     padding-left: 0; }
 
 #admin {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 0;
   background: #f6f6f7; }
   #admin ul.breadcrumb li a {
@@ -6916,4 +6916,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.f76f90fc9fe0f0ad7027.css.map*/
+/*# sourceMappingURL=main.d32cb5b03465f8a60131.css.map*/
