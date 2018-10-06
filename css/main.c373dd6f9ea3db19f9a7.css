@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800,900);
+@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
@@ -6768,8 +6769,53 @@ a.text-dark:hover, a.text-dark:focus {
 #gallery .grid {
   padding: 15px 0; }
 
-footer a {
-  color: #fff; }
+#footer {
+  padding-bottom: 10px;
+  background: #003688; }
+  #footer .head h2 {
+    color: #fff;
+    font-size: 1.6em;
+    letter-spacing: 0.1em;
+    font-weight: bold; }
+  #footer .link-holder {
+    padding-top: 40px; }
+    #footer .link-holder a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.7em;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 0.1em; }
+    #footer .link-holder .main-btn {
+      background: transparent;
+      color: #fff;
+      border: 2px solid #fff; }
+  #footer .qk-links {
+    padding-top: 140px;
+    padding-bottom: 20px; }
+    #footer .qk-links a {
+      font-size: 0.8em;
+      font-weight: lighter;
+      letter-spacing: 0.05em;
+      color: #fff;
+      text-decoration: none;
+      padding-right: 10px; }
+    #footer .qk-links .link {
+      padding-left: 10px; }
+  #footer .social {
+    padding-bottom: 20px; }
+    #footer .social .nav-link {
+      padding-left: 0;
+      padding-right: 40px;
+      font-size: 1.5em;
+      color: #fff; }
+  #footer .copy-text {
+    padding-top: 60px; }
+    #footer .copy-text h6 {
+      font-size: 0.9em;
+      color: #fff;
+      font-weight: lighter;
+      opacity: 0.7; }
 
 #innovation {
   padding-top: 80px;
@@ -6916,4 +6962,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.d32cb5b03465f8a60131.css.map*/
+/*# sourceMappingURL=main.c373dd6f9ea3db19f9a7.css.map*/
