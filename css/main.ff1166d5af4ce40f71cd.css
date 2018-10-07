@@ -6664,9 +6664,12 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 50px; }
 
 #stories .img-holder {
+  overflow: hidden;
   background-image: linear-gradient(0deg, rgba(0, 38, 255, 0.3), rgba(0, 38, 255, 0.3));
   height: 100%;
   position: relative; }
+  #stories .img-holder img {
+    transition: 1s ease; }
   #stories .img-holder .overlay {
     position: absolute;
     top: 0;
@@ -6677,21 +6680,50 @@ a.text-dark:hover, a.text-dark:focus {
     width: 100%;
     opacity: 0.3;
     transition: 0.5s ease;
-    background-image: linear-gradient(0deg, rgba(24, 24, 26, 0.39), rgba(53, 52, 52, 0.425)); }
+    background-image: linear-gradient(0deg, rgba(25, 25, 27, 0.733), rgba(31, 30, 30, 0.719)); }
   #stories .img-holder .content {
     position: absolute;
     width: 200px;
     margin-left: -100px;
     left: 50%;
     bottom: 10%;
-    color: #fff; }
+    color: #fff;
+    opacity: 1;
+    transition: 1s ease; }
     #stories .img-holder .content h6 {
       text-transform: uppercase;
       font-weight: 700;
       letter-spacing: 0.1em;
       font-size: 1em; }
+  #stories .img-holder .content_e {
+    opacity: 0;
+    position: absolute;
+    width: 300px;
+    margin-left: -150px;
+    left: 50%;
+    bottom: 50%;
+    color: #fff;
+    transition: 1s ease; }
+    #stories .img-holder .content_e p {
+      font-style: italic;
+      font-weight: lighter;
+      font-size: 1em;
+      letter-spacing: 0.05em; }
+    #stories .img-holder .content_e h6 {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      font-size: 0.8em; }
+  #stories .img-holder:hover img {
+    transform: scale(1.2);
+    transition: 1s ease; }
   #stories .img-holder:hover .overlay {
     opacity: 1;
+    transition: 1s ease; }
+  #stories .img-holder:hover .content_e {
+    opacity: 1; }
+  #stories .img-holder:hover .content {
+    opacity: 0;
     transition: 1s ease; }
 
 #path .s-head {
@@ -6989,4 +7021,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.af1aba3e63e99d801b56.css.map*/
+/*# sourceMappingURL=main.ff1166d5af4ce40f71cd.css.map*/
