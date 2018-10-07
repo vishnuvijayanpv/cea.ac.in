@@ -7008,6 +7008,20 @@ a.text-dark:hover, a.text-dark:focus {
       #studies-01 .breadcrumb li :hover {
         text-decoration: underline; }
 
+#course-Overview {
+  padding: 0; }
+  #course-Overview .sub-nav {
+    margin-top: 0 !important;
+    background: transparent; }
+    #course-Overview .sub-nav .collapse .navbar-nav .nav-item .nav-link {
+      color: #000;
+      text-transform: uppercase;
+      padding: 15px 70px;
+      margin-left: 40px;
+      margin-right: 40px; }
+    #course-Overview .sub-nav .collapse .navbar-nav .nav-item :hover, #course-Overview .sub-nav .collapse .navbar-nav .nav-item .test {
+      border-bottom: 2px solid #7aa52b; }
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #fff; }
@@ -7019,4 +7033,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.eb4a0b064bef28fa25dc.css.map*/
+/*# sourceMappingURL=main.b79e6410ecf429dd41ad.css.map*/
