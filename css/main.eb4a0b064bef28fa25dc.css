@@ -6559,6 +6559,19 @@ a.text-dark:hover, a.text-dark:focus {
     transition-duration: 0.5s;
     background: #003688; }
 
+.breadcrumb {
+  background: transparent;
+  padding-left: 0; }
+  .breadcrumb li {
+    color: #333; }
+    .breadcrumb li a {
+      color: #00338d;
+      font-weight: 600;
+      letter-spacing: 0; }
+    .breadcrumb li :hover {
+      color: #f6f6f7;
+      text-decoration: none; }
+
 .top-nav {
   margin-top: 0;
   padding-top: 10px;
@@ -6853,18 +6866,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 80px;
   padding-bottom: 0;
   background: #f6f6f7; }
-  #innovation ul.breadcrumb li a {
-    color: #00338d;
-    font-weight: 600;
-    letter-spacing: 0; }
-  #innovation ul.breadcrumb li a:hover {
-    color: grey;
-    text-decoration: none; }
-  #innovation u.breadcrumb li {
-    color: #333; }
-  #innovation ul.breadcrumb {
-    background: transparent;
-    padding-left: 0; }
   #innovation .head-holder {
     padding-bottom: 30px; }
     #innovation .head-holder .cl {
@@ -6911,18 +6912,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 80px;
   padding-bottom: 0;
   background: #f6f6f7; }
-  #contact-Us ul.breadcrumb li a {
-    color: #00338d;
-    font-weight: 600;
-    letter-spacing: 0; }
-  #contact-Us ul.breadcrumb li a:hover {
-    color: grey;
-    text-decoration: none; }
-  #contact-Us ul.breadcrumb li {
-    color: #333; }
-  #contact-Us ul.breadcrumb {
-    background: transparent;
-    padding-left: 0; }
   #contact-Us .content-holder {
     padding-top: 20px; }
     #contact-Us .content-holder .left-data h2 {
@@ -6952,18 +6941,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 80px;
   padding-bottom: 0;
   background: #f6f6f7; }
-  #admin ul.breadcrumb li a {
-    color: #00338d;
-    font-weight: 600;
-    letter-spacing: 0; }
-  #admin ul.breadcrumb li a:hover {
-    color: grey;
-    text-decoration: none; }
-  #admin u.breadcrumb li {
-    color: #333; }
-  #admin ul.breadcrumb {
-    background: transparent;
-    padding-left: 0; }
   #admin .content-head-holder .content-head {
     font-weight: 800;
     font-size: 3.5em;
@@ -7008,7 +6985,28 @@ a.text-dark:hover, a.text-dark:focus {
   width: 30%; }
 
 #studies-01 {
-  background-color: #f6f6f7; }
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f6f6f7;
+  height: 100%;
+  color: #fff; }
+  #studies-01 .content-head h2 {
+    font-weight: 800;
+    font-size: 3em;
+    padding-top: 3em; }
+  #studies-01 .content-item h4 {
+    font-style: italic; }
+  #studies-01 .breadcrumb {
+    padding-top: 220px; }
+    #studies-01 .breadcrumb li {
+      color: #fff; }
+      #studies-01 .breadcrumb li a {
+        color: #fff; }
+      #studies-01 .breadcrumb li :hover {
+        text-decoration: underline; }
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -7021,4 +7019,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.ff1166d5af4ce40f71cd.css.map*/
+/*# sourceMappingURL=main.eb4a0b064bef28fa25dc.css.map*/
