@@ -6875,22 +6875,46 @@ a.text-dark:hover, a.text-dark:focus {
       font-weight: 600;
       font-size: 0.8em; }
 
-#contactus {
+#contact-Us {
   padding-top: 80px;
   padding-bottom: 0;
   background: #f6f6f7; }
-  #contactus ul.breadcrumb li a {
+  #contact-Us ul.breadcrumb li a {
     color: #00338d;
     font-weight: 600;
     letter-spacing: 0; }
-  #contactus ul.breadcrumb li a:hover {
+  #contact-Us ul.breadcrumb li a:hover {
     color: grey;
     text-decoration: none; }
-  #contactus u.breadcrumb li {
+  #contact-Us ul.breadcrumb li {
     color: #333; }
-  #contactus ul.breadcrumb {
+  #contact-Us ul.breadcrumb {
     background: transparent;
     padding-left: 0; }
+  #contact-Us .content-holder {
+    padding-top: 20px; }
+    #contact-Us .content-holder .left-data h2 {
+      font-size: 20px; }
+    #contact-Us .content-holder .left-data ul {
+      list-style-type: none;
+      padding-left: 0; }
+      #contact-Us .content-holder .left-data ul li {
+        padding-top: 13px; }
+      #contact-Us .content-holder .left-data ul li i {
+        margin-right: 15px; }
+    #contact-Us .content-holder .right-data h2 {
+      font-size: 20px; }
+    #contact-Us .content-holder .right-data .form-data {
+      padding: 0 10px 10px 10px; }
+      #contact-Us .content-holder .right-data .form-data .data-name {
+        padding: 5px; }
+      #contact-Us .content-holder .right-data .form-data .data-mail {
+        padding: 5px; }
+      #contact-Us .content-holder .right-data .form-data .data-message {
+        margin: 10px 0 10px 10px; }
+      #contact-Us .content-holder .right-data .form-data input {
+        padding: 6px 16px;
+        margin-left: 5px; }
 
 #admin {
   padding-top: 80px;
@@ -6965,4 +6989,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.5b67b48591626f2eda85.css.map*/
+/*# sourceMappingURL=main.af1aba3e63e99d801b56.css.map*/
