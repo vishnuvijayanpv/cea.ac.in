@@ -9413,12 +9413,28 @@ a.text-dark:hover, a.text-dark:focus {
       text-decoration: none;
       font-size: 0.7em;
       text-transform: uppercase;
-      font-weight: 500;
+      font-weight: 700;
       letter-spacing: 0.1em; }
     #footer .link-holder .main-btn {
       background: transparent;
       color: #fff;
-      border: 2px solid #fff; }
+      border: 2px solid #fff;
+      width: 100%; }
+    #footer .link-holder :hover {
+      border-color: #809fb7;
+      color: #809fb7; }
+    #footer .link-holder .branch-holder .content-main {
+      padding-bottom: 8px; }
+    #footer .link-holder .branch-holder :hover {
+      color: #809fb7; }
+      #footer .link-holder .branch-holder :hover span {
+        padding-left: 13px;
+        transition: all 0.2s; }
+    #footer .link-holder .branch-holder span {
+      padding-left: 8px;
+      font-size: 13px; }
+    #footer .link-holder .branch-holder .last {
+      padding-bottom: 30px; }
   #footer .qk-links {
     padding-top: 140px;
     padding-bottom: 20px; }
@@ -9617,4 +9633,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.19628aad6053adf9d126.css.map*/
+/*# sourceMappingURL=main.d8886151fe5bf9f0d0ab.css.map*/
