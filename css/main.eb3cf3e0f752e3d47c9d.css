@@ -9635,6 +9635,17 @@ a.text-dark:hover, a.text-dark:focus {
       #studies-01 .breadcrumb li :hover {
         text-decoration: underline; }
 
+#course-Overview .head-holder li a {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: .8em;
+  font-weight: 700;
+  padding-bottom: 17px; }
+
+#course-Overview .head-holder li :hover, #course-Overview .head-holder li .active {
+  border-bottom: 2px solid #7aa52b; }
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #fff; }
@@ -9646,4 +9657,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.df21ed882875848c4087.css.map*/
+/*# sourceMappingURL=main.eb3cf3e0f752e3d47c9d.css.map*/
