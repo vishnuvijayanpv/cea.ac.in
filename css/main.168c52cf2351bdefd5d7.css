@@ -9582,7 +9582,7 @@ a.text-dark:hover, a.text-dark:focus {
     width: 30%; }
   #maincarousel .carousel-caption {
     bottom: 25%;
-    left: 5%;
+    left: 10%;
     text-align: left; }
     #maincarousel .carousel-caption h3 {
       font-size: 5em;
@@ -9599,6 +9599,12 @@ a.text-dark:hover, a.text-dark:focus {
     @media screen and (max-width: 600px) {
       #maincarousel .carousel-caption h3 {
         font-size: 2em; } }
+    @media screen and (max-width: 1440px) {
+      #maincarousel .carousel-caption {
+        left: 15%; } }
+    @media screen and (max-width: 2560px) and (min-width: 1441px) {
+      #maincarousel .carousel-caption {
+        left: 30%; } }
 
 #studies-01 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -9649,4 +9655,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.610db7493f842bb30fff.css.map*/
+/*# sourceMappingURL=main.168c52cf2351bdefd5d7.css.map*/
