@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <title>Contact | CEA</title>
+    <title>M.Tech | Thermal Engineering </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
 <link href="https://ceadoor.github.io/cea.ac.in/css/main.94c48f3b31d9a5351ee8.css" rel="stylesheet"></head>
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top other-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="/cea.ac.in">CEAdoor</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -40,7 +40,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav ml-auto other-nav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="/cea.ac.in">Home</a>
                         </li>
@@ -63,22 +63,22 @@
                                 <li>
                                     <h2 class="dropdown-header">B.Tech</h2>
                                 </li>
-                                <li><a class="dropdown-item" href="studies/btech-computer-science-engg.html">CSE</a></li>
-                                <li><a class="dropdown-item" href="#">ME</a></li>
-                                <li><a class="dropdown-item" href="#">EEE</a></li>
-                                <li><a class="dropdown-item" href="#">EC</a></li>
+                                <li><a class="dropdown-item" href="studies/btech-computer-science-engg">CSE</a></li>
+                                <li><a class="dropdown-item" href="studies/btech-electrical-and-electronics-engg">EEE</a></li>
+                                <li><a class="dropdown-item" href="studies/btech-mechanical-engg">ME</a></li>                                
+                                <li><a class="dropdown-item" href="studies/btech-electronics-and-communication-engg">EC</a></li>
                                 <div class="dropdown-divider"></div>
                                 <li>
                                     <h2 class="dropdown-header">M.Tech</h2>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Thermal</a></li>
+                                <li><a class="dropdown-item" href="studies/mtech-thermal-engg.html">Thermal</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Gallery</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="/cea.ac.in/about" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            <a class="nav-link" href="about" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
                                 Life@CEA
                             </a>
@@ -94,69 +94,14 @@
                             <a class="nav-link" href="/cea.ac.in/administration">Administration</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/cea.ac.in/contact">Contact</a>
+                            <a class="nav-link" href="/cea.ac.in/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section id="contact-Us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 tree">
-                    <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/cea.ac.in">Home</a></li>
-                        <li class="breadcrumb-item">Contact Us</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>CONTACT US</h2>
-                </div>
-            </div>
-            <div class="row content-holder">
-                <div class="col-md-6 left-data">
-                    <h2>GET IN TOUCH</h2>
-                    <ul>
-                        <li><i class="fas fa-map-marker"></i>
-                            College of Engineering Adoor  <br />
-                            Manakkala P.O Adoor, <br />
-                            Pathanamthitta - 691551
-                        </li>
-                        <li>
-                            <i class="fas fa-phone"></i><a href="tel:">+65 91 888 99 00</a>
-                        </li>
-                        <li>
-                            <i class="far fa-envelope"></i><a href="mailto:">info@example.com</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 right-data">
-                    <h2>LEAVE US A MESSAGE</h2>
-                    <form method="POST" class="row form-data" accept-charset="UTF-8">
-                        <div class="col-md-6 data-name">
-                            <input type="text" class="form-control" placeholder="Name*" name="">
-                        </div>
-                        <div class="col-md-6 data-mail">
-                            <input type="email" class="form-control" placeholder="Email*" name="">
-                        </div>
-                        <textarea class="form-control data-message" rows="4" placeholder="Message*"></textarea>
-                        <input type="submit" class="btn btn-primary" value="Send">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="map-holder">
-        <div class="container">
-            <div class="col-md-12">
-                <div class="map"></div>
-            </div>
-        </div>
-    </section>
 
     <section id="footer">
         <div class="container">
@@ -178,17 +123,17 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12 content-main">
-                                    <a href="#">B-TECH MECHANICAL<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
+                                    <a href="studies/btech-electrical-and-electronics-engg">B-TECH ELECTRICAL AND ELECTRONICS<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12 content-main">
-                                    <a href="#">B-TECH ELECTRICAL<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
+                                    <a href="studies/btech-mechanical-engg">B-TECH MECHANICAL<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
                                 </div>
-                            </div>
+                            </div>                            
                             <div class="row">
                                 <div class="col-md-12 content-main">
-                                    <a href="#">B-TECH ELECTRONICS<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
+                                    <a href="studies/btech-electronics-and-communication-engg">B-TECH ELECTRONICS AND COMMUNICATION<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -199,7 +144,7 @@
                         <div class="col-md-12 branch-holder">
                             <div class="row">
                                 <div class="col-md-12 content-main">
-                                    <a href="#">M-TECH THERMAL<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
+                                    <a href="studies/mtech-thermal-engg">M-TECH THERMAL<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -214,14 +159,14 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12 content-main last">
-                                    <a href="#">Events<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
+                                    <a href="news-and-events">News and Events<span class="badge"><i class="fas fa-external-link-alt"></i></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <button type="button" class="btn main-btn">ALL UNDERGRADUATE DEGREES</button>
+                <div class="col-lg-4 col-md-12">
+                    <button type="button" class="btn main-btn" onclick="location.href='studies/academic-programs'">ALL PROFESSIONAL DEGREES</button>
                 </div>
             </div>
             <div class="row qk-links">
@@ -259,6 +204,7 @@
             </div>
         </div>
     </section>
-
+    
 <script type="text/javascript" src="https://ceadoor.github.io/cea.ac.in/main.js"></script></body>
+
 </html>
