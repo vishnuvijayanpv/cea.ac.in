@@ -9159,6 +9159,8 @@ a.text-dark:hover, a.text-dark:focus {
       text-decoration: none; }
 
 .top-nav {
+  position: relative;
+  z-index: 9999;
   margin-top: 0;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -9652,4 +9654,4 @@ footer {
   padding: 80px 0; }
 
 
-/*# sourceMappingURL=main.441b8d39f39ee67f3022.css.map*/
+/*# sourceMappingURL=main.94c48f3b31d9a5351ee8.css.map*/
